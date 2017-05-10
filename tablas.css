@@ -1,0 +1,50 @@
+html{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: linear-gradient(to bottom, grey, white);
+	font-family: sans-serif, serif;
+	padding: center;
+	border: red 1px solid;
+	height: 800px;
+	width: auto;
+	margin: auto;
+	text-align: center;
+}
+
+table{
+	display: table;
+	border-collapse: separate;
+	border-spacing: 1px;
+	border-color: black;
+	border: 1px solid;
+	text-align: center;
+	margin: 0 auto;
+	border: 3px inset;
+	table-layout: auto;
+	
+}
+
+table tr:nth-child(odd){
+	 background-color: white;
+}
+
+table tr:nth-child(even){
+	 background-color: #DCDCDC;
+}
+
+th, td{
+	border: 1px solid black;
+	vertical-align: inherit;
+}
+
+.femme{
+	color: #EE82EE;
+}
+
+.homme{
+	color: green;
+}
+
